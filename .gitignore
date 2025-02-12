@@ -1,2 +1,5 @@
 Week1_homework/ny_taxi_postgres_data/
 *.csv
+*.parquet
+*.json
+dez
