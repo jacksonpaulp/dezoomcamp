@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: staging
+    database: stellar-code-448120-s7
+    schema: ny_taxi
+
+    tables: 
+      - name: green_tripdata
+        columns:
+        - name: payment_type
+          data_type: int64
+      - name: yellow_tripdata
+
+        
